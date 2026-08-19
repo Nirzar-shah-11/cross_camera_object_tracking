@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Photos and image artifacts
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.heic
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+
+# NumPy arrays and generated embeddings
+*.npy
+
+# Yolo model files
+*.pt
