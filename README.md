@@ -112,7 +112,7 @@ secret manager rather than placing an API key in source code. The current
 prototype also contains import-time example code and requires the additional
 `openai` and `langgraph` packages.
 
-## Limitations
+## Pending
 
 - ByteTrack IDs are local to each camera video; cross-camera identity comes
 	from embedding similarity rather than shared tracker IDs.
