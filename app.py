@@ -5,7 +5,18 @@ from pathlib import Path
 
 import cv2
 import streamlit as st
+from fastapi import FastAPI
 from PIL import Image
+
+app = FastAPI(title="Cross-Camera Object Tracking")
+
+
+@app.get("/")
+async def root() -> dict[str, str]:
+	return {
+		"message": "Cross-Camera Object Tracking is running.",
+		"ui": "Use 'streamlit run app.py' to launch the Streamlit interface.",
+	}
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent

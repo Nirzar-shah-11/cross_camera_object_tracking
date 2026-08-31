@@ -1,4 +1,6 @@
 streamlit
+fastapi
+uvicorn
 opencv-python
 numpy
 scikit-learn
